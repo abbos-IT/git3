@@ -1,19 +1,22 @@
-const namber0fFilms = +prompt('Nechta kino korgansiz?', '');
+"use strict"
 
-const personalMovieDB = {
-    count: namber0fFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+let num = 50;
 
-const a = prompt('Ohirgi martda qanaqa kino korgansiz?', ''),
-      b = prompt('Nechi bohoga boholisz?', ''),
-      c = prompt('Ohirgi martda korgan kino haqida gapirib berin!', ''),
-      d = prompt('Nechi bohoga boholisz', '');
+while (num <= 55) {
+    console.log(num);
+    num++;
+}
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+do {
+    console.log(num);
+    num--;
+}
+while (num > 55);
 
-console.log(personalMovieDB);
+for (let i = 1; i < 8; i ++) {
+    if (i === 6 ) {
+        break
+    }
+    console.log(i);
+}
+
